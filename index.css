@@ -38,11 +38,11 @@ a {
   gap: 10px;
   padding: 15px 22px;
   margin-bottom: 20px;
+  border-radius: 20px;
 }
 
 a:hover {
   background: #5a0909;
-  border-radius: 20px;
   transition: 0.2s;
 }
 
