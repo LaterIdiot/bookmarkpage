@@ -1,0 +1,61 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80);
+  background-size: 100%;
+  margin: 0;
+}
+
+#bookmarks {
+  justify-self: start;
+  align-items: normal;
+  height: 100%;
+  padding: 2%;
+  display: flex;
+  flex-wrap: wrap;
+  background: #20212473;
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 70px;
+  height: 70px;
+  box-shadow: rgb(0 0 0 / 30%) 0px 1px 4px 0px;
+  border-radius: 8px;
+  object-fit: contain;
+  background: #ffffff;
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100px;
+  height: 115px;
+  cursor: pointer;
+  gap: 10px;
+  padding: 15px 22px;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  background: #5a0909;
+  border-radius: 20px;
+  transition: 0.2s;
+}
+
+p {
+  margin: 0px;
+  font-family: sans-serif;
+  font-size: 12px;
+  line-height: 18px;
+  max-width: 80%;
+  height: 35px;
+  color: #ffffff;
+  padding: 1px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+}
